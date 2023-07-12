@@ -1,0 +1,145 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "t1",
+    "project_id": "4f8e789d-2de4-48a9-9f91-7638fa34dada",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": false,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "fce40f7c-390d-4522-9221-7e8228286b7b",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 72,
+                            "y": 24
+                        },
+                        "node_id": "65ae4c32-f5aa-4aed-94b6-d8a86fec1522",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": -7,
+                            "y": 34
+                        },
+                        "node_id": "90ecbab1-c268-4536-ba41-3798b972891f",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 66,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "router_selgrabl",
+                    "x": -34,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "router_selgrabl",
+                "node_id": "90ecbab1-c268-4536-ba41-3798b972891f",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5001,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "99d68ef3a0ea07b497253ee79225be236f0fe639139c0e69c06fd9d891a7b2bc",
+                    "environment": "",
+                    "extra_hosts": "",
+                    "extra_volumes": [],
+                    "image": "router_selgrabl:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/classic/route_switch_processor.svg",
+                "template_id": "d48c0e8f-ad93-4ab2-b47b-3a805b3d071d",
+                "width": 51,
+                "x": 281,
+                "y": 15,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "host_selgrabl",
+                    "x": -20,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "host_selgrabl",
+                "node_id": "65ae4c32-f5aa-4aed-94b6-d8a86fec1522",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5003,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "c94b1c2b9bf2b8ffef5af75dd56f2e2e5de5f16280c72b49392fe2a31b3a73de",
+                    "environment": "",
+                    "extra_hosts": "",
+                    "extra_volumes": [],
+                    "image": "host_selgrabl:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "6a51d672-b80b-4d47-a08d-45fd91594e8c",
+                "width": 65,
+                "x": 64,
+                "y": 39,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.41",
+    "zoom": 100
+}
