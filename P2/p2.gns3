@@ -4,8 +4,8 @@
     "auto_start": false,
     "drawing_grid_size": 25,
     "grid_size": 75,
-    "name": "p2f",
-    "project_id": "42f6a5b3-6b5e-4cbc-be5a-cfed554c6c3b",
+    "name": "p2",
+    "project_id": "43d5c56f-25da-4767-802f-8b9b183cdf8c",
     "revision": 9,
     "scene_height": 1000,
     "scene_width": 2000,
@@ -18,7 +18,7 @@
         "computes": [],
         "drawings": [
             {
-                "drawing_id": "4cbe178d-2d79-4fdc-9802-a0de1b35acb4",
+                "drawing_id": "8fdcfe58-ccec-42f4-a004-ff2a4ac006ba",
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"488.60132132265005\" height=\"288.7016606272002\"><ellipse cx=\"244\" rx=\"245\" cy=\"144\" ry=\"145\" fill=\"#deddda\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#e01b24\" /></svg>",
@@ -27,7 +27,7 @@
                 "z": 0
             },
             {
-                "drawing_id": "f6be32e6-6d07-4a7d-9ef1-ac7317244b37",
+                "drawing_id": "2401e700-53c3-463e-a9c8-9845b8d17753",
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"57\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">VXLAN</text></svg>",
@@ -39,7 +39,7 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "58d0cd7d-077e-4299-a89b-5e7d1ef08362",
+                "link_id": "202fd05b-9b2a-4e37-a88b-1075414a380d",
                 "link_style": {},
                 "nodes": [
                     {
@@ -51,7 +51,7 @@
                             "x": -17,
                             "y": 36
                         },
-                        "node_id": "6149e65f-9698-458d-b7bf-336493d81488",
+                        "node_id": "017523ef-4bc3-49fe-bc7f-4c1e34c1883a",
                         "port_number": 0
                     },
                     {
@@ -63,7 +63,7 @@
                             "x": 56,
                             "y": -19
                         },
-                        "node_id": "daf4d650-f876-4d0c-98da-665a5df07033",
+                        "node_id": "25d47d74-30c7-4544-b861-43748f4f3a36",
                         "port_number": 0
                     }
                 ],
@@ -71,7 +71,7 @@
             },
             {
                 "filters": {},
-                "link_id": "7934ecde-fa69-419a-bcaa-9ad12ef74952",
+                "link_id": "77a42344-ab28-4414-8e98-e88afac35fa9",
                 "link_style": {},
                 "nodes": [
                     {
@@ -83,7 +83,7 @@
                             "x": -54,
                             "y": 51
                         },
-                        "node_id": "daf4d650-f876-4d0c-98da-665a5df07033",
+                        "node_id": "25d47d74-30c7-4544-b861-43748f4f3a36",
                         "port_number": 0
                     },
                     {
@@ -95,7 +95,7 @@
                             "x": 62,
                             "y": -25
                         },
-                        "node_id": "4dde9e60-7809-44d3-b885-7b8d9abf212e",
+                        "node_id": "6c8f24f9-fd34-4822-bee1-9272b62d8803",
                         "port_number": 0
                     }
                 ],
@@ -103,7 +103,7 @@
             },
             {
                 "filters": {},
-                "link_id": "0859b62f-31b5-4737-bee0-fa52f41c614d",
+                "link_id": "266d166f-9c8f-4767-8efd-7157e630c25e",
                 "link_style": {},
                 "nodes": [
                     {
@@ -115,7 +115,7 @@
                             "x": 66,
                             "y": 40
                         },
-                        "node_id": "6149e65f-9698-458d-b7bf-336493d81488",
+                        "node_id": "017523ef-4bc3-49fe-bc7f-4c1e34c1883a",
                         "port_number": 1
                     },
                     {
@@ -127,7 +127,7 @@
                             "x": -32,
                             "y": -20
                         },
-                        "node_id": "0555d575-6c44-4c0d-94e8-c222ba181db5",
+                        "node_id": "ac83fa16-9e7d-4237-acd5-d1f6c2a6c084",
                         "port_number": 0
                     }
                 ],
@@ -135,7 +135,7 @@
             },
             {
                 "filters": {},
-                "link_id": "5e4acded-1b69-4e25-bfc4-19558ae2d91c",
+                "link_id": "98b07a76-66ae-4a7a-874b-36ede61e7c80",
                 "link_style": {},
                 "nodes": [
                     {
@@ -147,7 +147,7 @@
                             "x": 68,
                             "y": 45
                         },
-                        "node_id": "0555d575-6c44-4c0d-94e8-c222ba181db5",
+                        "node_id": "ac83fa16-9e7d-4237-acd5-d1f6c2a6c084",
                         "port_number": 0
                     },
                     {
@@ -159,7 +159,7 @@
                             "x": -32,
                             "y": -29
                         },
-                        "node_id": "f3c98473-7aae-4e4e-b98c-f9ba3b999ad1",
+                        "node_id": "8af6d8fb-4177-4bce-b23c-410300b64236",
                         "port_number": 0
                     }
                 ],
@@ -169,7 +169,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5009,
+                "console": 5014,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -184,17 +184,17 @@
                 },
                 "locked": false,
                 "name": "router_selgrabl-1",
-                "node_id": "daf4d650-f876-4d0c-98da-665a5df07033",
+                "node_id": "25d47d74-30c7-4544-b861-43748f4f3a36",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 2,
-                    "aux": 5010,
+                    "aux": 5015,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "f9bb14392959e50768030e4b164cefc56d225b42a010cc91fc64d52a6933b31d",
+                    "container_id": "1b45c9a8790143f170e4786dc792a5035ec059a2738469a3f965d625d33ea266",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -211,7 +211,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5011,
+                "console": 5016,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -226,17 +226,17 @@
                 },
                 "locked": false,
                 "name": "router_selgrabl-2",
-                "node_id": "0555d575-6c44-4c0d-94e8-c222ba181db5",
+                "node_id": "ac83fa16-9e7d-4237-acd5-d1f6c2a6c084",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 2,
-                    "aux": 5012,
+                    "aux": 5017,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "895f150a74ef62fd5c0d24e2343e0fcfcbaae29e6474db03a2b0809aa6afaaf0",
+                    "container_id": "52bb41fe93fec3806f16d3eace777e0cd374ff5bf516b81087e093248d1d0944",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -253,7 +253,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5013,
+                "console": 5018,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -268,17 +268,17 @@
                 },
                 "locked": false,
                 "name": "host_selgrabl-1",
-                "node_id": "4dde9e60-7809-44d3-b885-7b8d9abf212e",
+                "node_id": "6c8f24f9-fd34-4822-bee1-9272b62d8803",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 2,
-                    "aux": 5014,
+                    "aux": 5019,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "599f71972446a3bb452ffc531b15b46cdbd54a4736d66d89a809a41f3de73f01",
+                    "container_id": "aefd02b3a19b7305e4022f0dbe1367958dada498c5715c844be82499f0074c25",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -295,7 +295,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5015,
+                "console": 5020,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -310,17 +310,17 @@
                 },
                 "locked": false,
                 "name": "host_selgrabl-2",
-                "node_id": "f3c98473-7aae-4e4e-b98c-f9ba3b999ad1",
+                "node_id": "8af6d8fb-4177-4bce-b23c-410300b64236",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 2,
-                    "aux": 5016,
+                    "aux": 5021,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "cd489c7aeee04f21aeb1d205881888ab8ef0824629ad2a70170526cab9623751",
+                    "container_id": "401c0860e047f63cd5f3b82c93f997f0607eed8578fd2feac1ca514f699b240c",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
@@ -337,7 +337,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5017,
+                "console": 5022,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -352,7 +352,7 @@
                 },
                 "locked": false,
                 "name": "Switch_selgrabl",
-                "node_id": "6149e65f-9698-458d-b7bf-336493d81488",
+                "node_id": "017523ef-4bc3-49fe-bc7f-4c1e34c1883a",
                 "node_type": "ethernet_switch",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
